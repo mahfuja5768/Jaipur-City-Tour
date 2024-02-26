@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jaipur City Tour</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gray: "#eeeeee",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <div class="container mx-auto">
+      <nav class="ms-8 bg-white h-[58px] flex justify-between items-center">
+        <img class="h-[58px] p-2" src="/assets/images/logo.png" alt="" />
+
+        <ul class="font-semibold text-base py-2 hidden lg:flex  ">
+          <li><a href="" class="px-5">Home</a></li>
+          <li><a href="" class="pe-5">Tours By Duration</a></li>
+          <li><a href="" class="pe-5">Rajasthan Tourism</a></li>
+          <li><a href="" class="pe-5">Car Rental</a></li>
+          <li><a href="" class="pe-5">Our Team</a></li>
+          <li><a href="" class="pe-5">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <!-- banner start-->
+      <section
+        class="min-h-screen md:min-h-[70vh] bg-[url('/assets/images/banner1.jpg')] bg-cover bg-center relative"
+      >
+        <div
+          class="text-center flex flex-col justify-center items-center top-[10%] absolute left-0 right-0"
+        >
+          <p class="text-gray md:w-full w-3/4 text-base tracking-[4px]">
+            THE DESERT STATE OF INDIA
+          </p>
+          <h1
+            class="text-6xl mt-5 mb-2 font-bold text-white w-3/2 md:w-full mx-auto"
+          >
+            Let's Go Rajasthan
+          </h1>
+          <p class="text-gray w-2/3 mx-auto block text-lg my-2">
+            Beautiful, fruitful holidays, created for every lifestyle from
+            Jaipur's most trusted Travel Agency.
+          </p>
+          <button
+            class="bg-[#f4364f] text-white py-2 px-6 text-sm font-semibold rounded-sm hover:text-[#337ab7]"
+          >
+            MORE
+          </button>
+        </div>
+      </section>
+
+      <!-- tours card -->
+      <section
+        class="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center -mt-1 md:-mt-20 z-10 relative"
+      >
+        <div
+          class="w-3/4 md:w-11/12 lg:w-full mx-auto shadow-md rounded-sm relative"
+        >
+          <img class="w-full" src="/assets/images/t5.jpg" alt="cardImg" />
+          <img
+            class="w-12 h-18 absolute -top-1"
+            src="/assets/images/band.png"
+            alt=""
+          />
+          <div
+            class="flex justify-between items-center my-2 px-3 flex-col gap-2 md:flex-row"
+          >
+            <h3 class="text-base">
+              <span class="font-semibold">3 DAY TOURS</span>
+              <span class="text-[#909090]">(Rajasthan)</span>
+            </h3>
+            <div class="flex">
+              <a href="">
+                <img src="/assets/images/clock.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/info.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/price.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/map.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-3/4 md:w-11/12 lg:w-full mx-auto shadow-md rounded-sm relative"
+        >
+          <img class="w-full" src="/assets/images/t1.jpg" alt="cardImg" />
+          <img
+            class="w-12 h-18 absolute -top-1"
+            src="/assets/images/band1.png"
+            alt=""
+          />
+          <div
+            class="flex justify-between items-center my-2 px-3 flex-col gap-2 md:flex-row"
+          >
+            <h3 class="text-base">
+              <span class="font-semibold">3 DAY TOURS</span>
+              <span class="text-[#909090]">(Rajasthan)</span>
+            </h3>
+            <div class="flex">
+              <a href="">
+                <img src="/assets/images/clock.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/info.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/price.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/map.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-3/4 md:w-11/12 lg:w-full mx-auto shadow-md rounded-sm relative"
+        >
+          <img class="w-full" src="/assets/images/t2.jpg" alt="cardImg" />
+          <img
+            class="w-12 h-18 absolute -top-1"
+            src="/assets/images/band1.png"
+            alt=""
+          />
+          <div
+            class="flex justify-between items-center my-2 px-3 flex-col gap-2 md:flex-row"
+          >
+            <h3 class="text-base">
+              <span class="font-semibold">3 DAY TOURS</span>
+              <span class="text-[#909090]">(Rajasthan)</span>
+            </h3>
+            <div class="flex">
+              <a href="">
+                <img src="/assets/images/clock.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/info.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/price.png" alt="" />
+              </a>
+              <a href="">
+                <img src="/assets/images/map.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-24 flex justify-center px-4">
+        <img src="/assets/images/ta3.png" alt="" />
+      </section>
+
+      <!-- Popular Tour Packages -->
+      <section class="max-w-[1200px] mx-auto px-4 text-center">
+        <h2 class="text-5xl font-semibold">
+          Rajasthan Popular <span class="text-[#f4364f]">Tour Packages</span>
+        </h2>
+        <p class="my-7 text-[#939393] w-3/4 mx-auto">
+          Budget Rajasthan tour packages starting from Delhi or Jaipur under a
+          trusted, expert and experienced tour manager for hassle free smooth
+          travel experience.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 relative">
+          <div>
+            <div class="relative cursor-pointer rounded-md">
+              <img class="rounded-md" src="/assets/images/home.jpg" alt="" />
+              <div
+                class="absolute hover:bg-blue-800 duration-300 inset-0 bg-gradient-to-t from-black opacity-25 rounded-md"
+              ></div>
+            </div>
+
+            <h3
+              class="md:-mt-16 -mt-9 relative ps-3 flex flex-col justify-start items-start pe-5 z-10 text-white"
+            >
+              Best Deal
+            </h3>
+            <div
+              class="-mt-12 relative flex flex-col justify-end items-end pe-5 z-10 text-white"
+            >
+              <h2 class="text-2xl font-bold">Golden Triangle</h2>
+              <p>From $19,045/-</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="cursor-pointer">
+              <div class="relative rounded-md">
+                <img class="rounded-md w-full" src="/assets/images/home3.jpg" alt="" />
+                <div
+                  class="absolute inset-0 bg-black opacity-25 hover:bg-blue-800 duration-300 rounded-md"
+                ></div>
+              </div>
+
+              <div
+                class="-mt-16 relative flex flex-col justify-end items-end pe-5 z-10 text-white"
+              >
+                <h2 class="text-2xl font-bold">Simply Jaipur</h2>
+                <p>Starting from $ 8,710/-</p>
+              </div>
+            </div>
+
+            <div class="cursor-pointer">
+              <div class="relative rounded-md">
+                <img class="rounded-md w-full" src="/assets/images/home2.jpg" alt="" />
+                <div
+                  class="absolute hover:bg-blue-800 duration-300 inset-0 bg-black opacity-25 rounded-md"
+                ></div>
+              </div>
+
+              <div
+                class="-mt-16 relative flex flex-col justify-end items-end pe-5 z-10 text-white"
+              >
+                <h2 class="text-2xl font-bold">Desert Tour</h2>
+                <p>Starting from $35,915/-</p>
+              </div>
+            </div>
+
+            <div class="cursor-pointer">
+              <div class="relative rounded-md">
+                <img class="rounded-md w-full" src="/assets/images/home1.jpg" alt="" />
+                <div
+                  class="absolute hover:bg-blue-800 duration-300 inset-0 bg-black opacity-25 rounded-md"
+                ></div>
+              </div>
+
+              <div
+                class="-mt-16 relative flex flex-col justify-end items-end pe-5 z-10 text-white"
+              >
+                <h2 class="text-2xl font-bold">Wild Tour</h2>
+                <p>Starting from $14,045/-</p>
+              </div>
+            </div>
+
+            <div class="cursor-pointer">
+              <div class="relative rounded-md">
+                <img class="rounded-md w-full" src="/assets/images/home4.jpg" alt="" />
+                <div
+                  class="absolute hover:bg-blue-800 duration-300 inset-0 bg-black opacity-25 rounded-md"
+                ></div>
+              </div>
+              <div
+                class="-mt-24 relative flex flex-col justify-end items-end pe-5 z-10 text-white"
+              >
+                <h2 class="text-2xl font-bold">Complete Rajasthan</h2>
+                <p>Starting from $35,045/-</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Popular Tour Packages -->
+      <section class="max-w-[1200px] my-24 mx-auto px-4 text-center">
+        <h2 class="text-5xl font-semibold">
+          Top <span class="text-[#f4364f]">Tour Packages</span> For This Month
+        </h2>
+        <p class="my-7 text-[#939393] w-3/4 mx-auto">
+          Rajasthan's trusted tour and travels operator with five star ratings
+          on tripadvisor. Book your travel packages to Rajasthan with us and
+          enjoy your holidays with beautiful memories.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div class="border border-gray">
+            <h3 class="bg-[#253d53] p-2 text-white text-lg font-bold">
+              Jaipur - Top Same Day <span class="text-gray">Tours</span>
+            </h3>
+            <ul>
+              <li
+                class="flex justify-between py-3 cursor-pointer items-start gap-2 border-b border-gray px-2 my-3"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="flex justify-between py-3 cursor-pointer items-start gap-2 border-b border-gray px-2 my-3"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="flex border-b border-gray px-2 my-3 justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="border-b border-gray px-2 my-3 flex justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="px-2 my-3 flex justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+            </ul>
+          </div>
+          <div class="border border-gray">
+            <h3 class="bg-[#253d53] p-2 text-white text-lg font-bold">
+              Top 1 to 6 Days <span class="text-gray">Tours</span>
+            </h3>
+            <ul>
+              <li
+                class="flex justify-between py-3 cursor-pointer items-start gap-2 border-b border-gray px-2 my-3"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="flex justify-between py-3 cursor-pointer items-start gap-2 border-b border-gray px-2 my-3"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="flex border-b border-gray px-2 my-3 justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="border-b border-gray px-2 my-3 flex justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="px-2 my-3 flex justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+            </ul>
+          </div>
+          <div class="border border-gray">
+            <h3 class="bg-[#253d53] p-2 text-white text-lg font-bold">
+              Top 7 to 14 Days <span class="text-gray">Tours</span>
+            </h3>
+            <ul>
+              <li
+                class="flex justify-between py-3 cursor-pointer items-start gap-2 border-b border-gray px-2 my-3"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="flex justify-between py-3 cursor-pointer items-start gap-2 border-b border-gray px-2 my-3"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="flex border-b border-gray px-2 my-3 justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class="border-b border-gray px-2 my-3 flex justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+              <li
+                class=" px-2 my-3 flex justify-between py-3 cursor-pointer items-start gap-2"
+              >
+                <img class="w-8" src="/assets/images/hand.png" alt="" />
+                <div>
+                  <h4 class="text-base">Samode Same Day Tour</h4>
+                  <h5 class="text-xs text-[#9a9a9a]">$1,499/- per person</h5>
+                </div>
+                <p class="border p-1">4.5</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <div class="bg-black relative pt-12">
+        <div class="container mx-auto flex flex-col justify-center items-center">
+          <br />
+          <p class="text-center mx-auto ">
+            <img
+              src="/assets/images/rajasthan-tourism.png"
+              width="197"
+              height="133"
+            /><br /><br />
+          </p>
+            <p class="text-[#D6A204] text-center"
+              ><b>AUTHORISED &amp; LICENSED BY</b> <br />
+              DEPARTMENT OF TOURISM GOVT. OF RAJASTHAN (INDIA)</p
+            >
+          </p>
+          <br /><br />
+
+        
+            <div>
+              <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4">
+                <div class="text-[#616161]">
+                  <h4 class="text-white"><span>Travel</span> Desk</h4>
+                  <p>
+                    JaipurTraveling <br />
+                    G - 3A, Rajputana Tower (B), Khatipura, Jaipur Rajasthan -
+                    302012
+                  </p>
+                  <p class="text-white">
+                    <b >Phone: </b>
+                    <span> +91-141-2358073</span>
+                  </p>
+                  <p>
+                    <span class="text-[#337ab7]">
+                      <a href="mailto:info@jaipurtraveling.com"
+                        >info@jaipurtraveling.com</a
+                      >
+                    </span>
+                    &nbsp;
+                  </p>
+                </div>
+                <div class="text-[#616161]">
+                  <h4 class="text-white"><span>Registered</span> Address</h4>
+                  <p>
+                    JaipurTraveling <br />
+                    85, Keshav Nagar, Meeno Ki Dhani, Near Hariom Vidyapith
+                    School, 200 fit bypass, Muralipura, Jaipur, 302013,
+                    Rajasthan, INDIA
+                  </p>
+                  <p class="text-white">
+                    <b>Phone: </b>
+                    <span class="highlighted">+91-9610147973</span>
+                  </p>
+                </div>
+                <div class="text-[#616161]">
+                  <h4 class="text-white"><span>RAJASTHAN TOURS </span> BY CAR</h4>
+                  <ul class="two-columns">
+                    <li>
+                      <a href="">Same Day Tours</a>
+                    </li>
+                    <li>
+                      <a href=""
+                        >3 Days Tours</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >5 Days Tours</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >7 Days Tours</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Jaipur Local Car Rental</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >Rajasthan intercity Car Rental</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="text-[#616161]">
+                  <h4 class="text-white"><span>Speciality</span> Tours</h4>
+                  <ul class="two-columns">
+                    <li>
+                      <a
+                        href=""
+                        >Wildlife Tour Package</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Pushkar Tour Package</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Golden Triangle Tour Package</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Adventure Tour Package</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Desert Tour Package</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        >Budget Tours Rajasthan</a
+                      >
+                    </li>
+                    <li>
+                      <a href=""
+                        >All Tour Packages from Jaipur</a
+                      >
+                    </li>
+                    <li>
+                      <a href="">Terms Conditions &amp; Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+          <div class="bg-[#2d2d2d] text-center text-white py-3">
+			<div class="w-full">
+				<p>Copyright 2021 | Best of <a    class="text-[#3074ae]">Rajasthan Tours</a> by JaipurTraveling | Web Solutions - 
+				<a href="" class="text-[#3074ae]" target="_blank">Techno Edge</a></p> <br>
+			</div>
+		</div>
+      </div>
+
+      <div class="hidden fixed left-0 ps-3 top-1/3 z-50">
+        <ul>
+          <li>
+            <a href="#" class="sh"
+              >14k <br />
+              Follow</a
+            >
+          </li>
+          <li>
+            <a href="https://www.facebook.com/JaipurTraveling/" class="fb1"
+              ><i class="fa fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/jaipurtraveling/" class="li1"
+              ><i class="fa fa-instagram" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UC6uQjE3e4ZPX9zOF8lu5L2Q"
+              class="gp1"
+              ><i class="fa fa-youtube" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://api.whatsapp.com/send?phone=919610147973&amp;text=&amp;source=&amp;data="
+              class="wa1"
+              ><i class="fa fa-whatsapp" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="tel:919610147973" class="tw1"
+              ><i class="fa fa-phone" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.jaipurtraveling.com/contact.htm" class="sh1"
+              ><i class="fa fa-envelope-o" aria-hidden="true"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    
+  </body>
+</html>
